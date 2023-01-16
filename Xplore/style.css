@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(9, 0, 77, 0.65), rgba(9, 0, 77, 0.65)), url(/Xplore/images/background.png);
+    background-position: center;
+    background-size: cover;
+}
+.logo {
+    width: 15%;
+    cursor: pointer;
+}
+nav {
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+padding: 10px 0;
+}
+nav ul {
+ list-style: none;
+ width: 100%;
+ text-align: right;
+ padding-right:60px ;
+}
+nav ul li {
+   display: inline-block;
+   margin: 10px 20px;
+}
+nav ul li a {
+    color:#fff;
+    text-decoration: none;
+}
+.btn {
+    display:flex ;
+    align-items: center;
+    background-color: #f5168d;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+}
+.btn img {
+   width: 20px;
+}
+.content {
+    margin-top: 100px;
+    color: #fff;
+}
+.content h1 {
+    line-height: 85px;
+    font-weight: 600;
+    font-size: 70px;
+}
+.content form {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.content form input {
+    outline: 0;
+    border: 0;
+    font-weight: 500;
+    width: 100%;
+    font-size: 16px;
+}
+
+.content form .btn {
+    font-size: 16px;
+}
