@@ -69,10 +69,10 @@ background-position: 0 40%;
 
 @keyframes backcolor {
     0% {
-        background-position: 0 0%;
+        background-position: 0 10%;
     }
     100% {
-        background-position: 0 400%;
+        background-position: 0 300%;
     }
 }
 
