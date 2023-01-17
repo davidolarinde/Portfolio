@@ -74,7 +74,8 @@ overflow: hidden;
     flex: 1;
     border: 0;
     outline: 0;
-    margin-left: 20px
+    margin-left: 20px;
+    transition: top .5s;
 }
 
 .email-signup button {
@@ -85,4 +86,13 @@ overflow: hidden;
     font-size: 16px;
     padding: 15px 30px;
     cursor: pointer;
+}
+
+.email-signup input::placeholder 
+{
+    position: absolute;
+transition: .3s top;
+}
+.email-signup input:focus ::placeholder {
+    top: -10px;
 }
