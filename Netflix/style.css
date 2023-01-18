@@ -28,21 +28,17 @@ nav {
 }
 nav button {
     border: 0;
-  padding: 7px 20px;
+ padding: 10px 15px ;
     outline: 0;
     border-radius: 5px;
     background-color:#db0001;
     color: #fff;
-    margin-right: 5px;
-    font-size: 12px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 17px;
 }
-.language-btn {
-    background-color: transparent;
-    display: inline-flex;
-    align-items: center;
-    border: 1px solid #fff;
-    padding: 7px 10px;
-}
+
+
 .header-content {
     position: absolute;
     top: 50%;
@@ -68,6 +64,7 @@ nav button {
     align-items: center;
 margin-top: 30px;
 overflow: hidden;    
+position: relative;
 }
 
 .email-signup input {
@@ -88,11 +85,41 @@ overflow: hidden;
     cursor: pointer;
 }
 
-.email-signup input::placeholder 
-{
-    position: absolute;
-transition: .3s top;
+
+.email-signup input :required {
+    background: red;
+    color: #fff;
 }
-.email-signup input:focus ::placeholder {
-    top: -10px;
+/*-----------Features-------*/
+.features {
+    border-top: 6px solid #333;
+    padding: 50px 12%;
+}
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.text-col {
+    flex-basis:50% ;
+    margin-bottom: 20px;
+}
+
+.img-col {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col img {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+.features h1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom:20px ;
 }
