@@ -7,16 +7,10 @@ box-sizing: border-box;
 .header {
     width: 100%;
   height: 100vh;
-background: radial-gradient( circle closest-side,rgba(255, 255, 255, 0.338) , rgba(255, 0, 0, 0.19));
 background-size: cover;
 background-position: center;
 }
-.head-image {
-padding-left: 700px;
-position: absolute;
-top: 120px;
 
-}
 .head-image img {
     width: 100%;
     height: 60vh;
@@ -56,59 +50,29 @@ nav ul li a {
     cursor: pointer;
  
 }
-.header-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
+.container {
+ max-width: 1300px;
+ margin: auto;
+ padding-left: 25px;
+ padding-right: 25px;   
 }
-.header-img {
-position: absolute;
-top: 150px;
-}
-.content-image {
-    width: 35%;
-float: right;
-
-}
-.header-text {
-    margin-top: 200px;
-    margin-left: 40px;
-}
-.header-text h1 {
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 50px;
-}
-.header-text p {
-    font-size: 15px;
-    font-weight: 500;
-}
-.btn {
-cursor: pointer;
-outline: 0;
-border: 0;
-padding: 10px 20px;
-border-radius: 30px;
-background: #db0001;
-color: #fff;
-}
-.second-row {
-   margin-top: 200px;
-   background-color: #fff;
-   width: 100%;
-   height: 100vh;
-}
-.images {
+.row
+{
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+flex-wrap: wrap;
+justify-content: space-around;
+position: absolute;
+top: 10px;
 }
-.category-1 {
-    width: 20%;
+.col-2 {
+    flex-basis: 50%;
+min-width: 300px;
 }
-.category-2 {
-    width: 20%;
+.col-2 img {
+    max-width: 100%;
+    padding: 50px 0;
 }
-.category-3 {
-    width: 20%;
+.all {
+    background: radial-gradient(#fff, #ffd6d6);
 }
