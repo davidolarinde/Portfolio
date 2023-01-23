@@ -66,7 +66,7 @@ background: radial-gradient(#fff, #ffd6d6);
 min-width: 300px;
 }
 .col-2 img {
-    max-width: 100%;
+    max-width: 90%;
     padding: 50px 0;
 }
 /*Featured categories*/
@@ -206,4 +206,8 @@ margin-left: 100px;
 
 .credits:hover {
     color: #fff;
+}
+
+.star {
+    color: orange;
 }
