@@ -155,6 +155,7 @@ transform: translateX(-50%);
 align-items: center;
 position: relative;
 }
+
 .text p {
     font-size: 20px;
     font-weight: 500
@@ -210,4 +211,75 @@ margin-left: 100px;
 
 .star {
     color: orange;
+}
+
+/*-----Footer*/
+.footer {
+    background-color: black;
+   min-height:40vh ;
+   display: flex;
+   color: #fff;
+   justify-content: space-evenly ;
+   cursor: pointer;
+}
+
+.left-col  {
+    margin-left: 50px;
+    margin-top: 40px;
+    line-height: 50px;
+}
+.left-col p {
+    color: #333;
+}
+.left-col p:hover {
+    color: #fff;
+}
+.center p {
+    color: #333;
+}
+.center p:hover {
+    color: #fff;
+}
+.left-col img {
+    width: 20%;
+}
+.center {
+    margin-top: 40px;
+position: absolute;
+
+}
+.center img {
+    color: #fff;
+      text-align: center;
+}
+.right {
+
+    margin-top: 40px;
+}
+.right ul li {
+    list-style: none;
+}
+.right ul li a {
+    text-decoration: none;
+color: #333;
+font-weight: 300;
+}
+.right ul li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.top-right {
+    margin-top: 40px;
+}
+.top-right  ul li {
+list-style: none;
+}
+.top-right  ul li a {
+    text-decoration: none;
+color: #333;
+}
+
+.top-right  ul li a:hover {
+    color: #fff;
+    text-decoration: underline;
 }

@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(back.png);
+}
+
+form {
+ display: flex;
+ justify-content: space-evenly;
+   background-color: rgba(255, 255, 255, 0.516);
+margin: auto;
+    height: 500px;
+    width: 500px;
+    border: 1px solid #fff;
+    backdrop-filter: blur(5px);
+    color: #fff;
+border-radius: 8px;
+}
+.container {
+    margin-top: 40px;
+}
+.container h3 {
+    text-align: center;
+    color: #333;
+}
+input {
+    width: 450px;
+    padding: 20px;
+  border: 0;
+    outline: 0;
+    border-bottom: 1px solid #333;
+    background-color: rgba(255, 255, 255, 0);
+    color: #333;
+}
+.name {
+    margin-bottom: 20px;
+}
+
+.mail {
+    margin-bottom: 20px;
+}
+.link {
+    margin-top: 10px;
+}
+
+.sign {
+    text-decoration: none;
+    color: #fff;
+    background: #db0001;
+    padding: 8px
+}
+input::placeholder {
+    color: #333;
+}
