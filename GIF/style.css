@@ -14,7 +14,6 @@
 
 .topnav {
     display: flex;
-    margin-left: 30px;
 align-items: center;
 justify-content: space-between;
 }
@@ -27,13 +26,16 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 16px;
-    margin-left: 10px;
+ 
 }
-
+nav ul li {
+    margin-left: 8px;
+margin-right: 10px;
+}
 .content {
     color: #fff;
     margin-top: 50px;
-    margin-left: 40px;
+flex-basis: 30%;
 }
 .content h1 {
     font-size: 60px;
@@ -55,7 +57,11 @@ nav ul li a {
 
 .side-note {
     position: absolute;
-    top: 500px;
+    top: 400px;
     color: #fff;
-    margin-left: 850px;
+    margin-left: 830px;
+}
+
+.content img {
+    width: 100%;
 }
